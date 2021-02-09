@@ -1,0 +1,90 @@
+.wrap {
+    position: relative;
+    width: 1000px;
+    height: 1000px;
+    margin: 0 auto;
+}
+
+.square {
+    position: absolute;
+    height: 60%;
+    width: 66%;
+    top: 25%;
+    left: 25%;
+    background-color: #337AFF;
+}
+
+.square-small {
+    position: absolute;
+    height: 30%;
+    width: 35%;
+    border-radius: 20px;
+    background-color:#FFDB33;
+    top: 40%;
+    left: 40%;
+}
+
+.circle--top-left {
+    position: absolute;
+    height: 30%;
+    width: 30%;
+    border-radius: 50%;
+    background-color: red;
+    top: 10%;
+    left: 10%;
+}  
+
+.circle--top-right {
+    position: absolute;
+    height: 30%;
+    width: 30%;
+    border-radius: 50%;
+    background-color: red;
+    bottom: 60%;
+    left: 76%;
+}
+
+.circle--bottom-left {
+    position: absolute;
+    height: 30%;
+    width: 30%;
+    border-radius: 50%;
+    background-color: red;
+    bottom: 4%;
+    left: 11%;
+}
+
+.circle--bottom-right {
+    position: absolute;
+    height: 30%;
+    width: 30%;
+    border-radius: 50%;
+    background-color: red;
+    bottom: 4%;
+    left: 77%;
+}
+
+.circle--top-left:hover {
+    background-color: rosybrown;
+    z-index: 150;
+}
+
+.circle--top-right:hover {
+    background-color:sienna;
+    z-index: 300;
+}
+
+.circle--bottom-left:hover {
+    background-color:slategrey;
+    z-index: 300;
+}
+
+.circle--bottom-right:hover {
+    background-color:thistle;
+    z-index: 300;
+}
+
+.square:hover {
+    background-color: seagreen;
+    z-index: 200;
+}
